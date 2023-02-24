@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.main-container {
+  background: #ffc2a0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.card {
+  background: white;
+  width: 80%;
+  height: 80%;
+  border-radius: 15px;
+  padding-right: 30px;
+  overflow-y: auto;
+}
+.card h1 {
+  text-align: center;
+  color: #ff8542;
+  font-size: 42px;
+}
